@@ -1,0 +1,182 @@
+@media screen and (max-width: 1035px){
+    .inicio .inicio-text h2{
+        font-size: 40px;
+    }
+
+    .service-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-section .row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .porfolio-section .porfolio-items .porfolio-item,
+    .service-section .service-item,
+    .contact-section .contact-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }  
+
+    .contact-section .row {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+
+    .porfolio-section .porfolio-filter {
+        display: flex;
+        justify-content: center;
+    }
+
+    .porfolio-section .porfolio-filter .button {
+        display: flex;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 796px){
+    .contact-section .contact-item,
+    .porfolio-popup .descrition,
+    .porfolio-popup .info,
+    .porfolio-section .porfolio-items .porfolio-item,
+    .service-section .service-item,
+    .sobreMi .habilidades .hab-item,
+    .sobreMi .sobre-img,
+    .sobreMi .sobre-info,
+    .inicio .inicio-text, 
+    .inicio .inicio-img,
+    .porfolio-section .porfolio-filter {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .inicio .inicio-text{
+        order: 2;
+    }
+
+    .inicio .inicio-text{
+        text-align: center;
+    }
+
+    .inicio .full {
+        padding: 100px 0;
+    }
+
+    .inicio .inicio-img .img-box{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+
+    .animation3 {
+        margin-left: -50px;
+    }
+
+    .animation4{
+        margin-left: -44px;
+    }
+
+    .animation5 {
+        margin-left: -40px;
+    }
+
+    .sobreMi .sobre-img{
+        padding-bottom: 30px;
+    }
+
+    .sobreMi .timeline .timeline-item:nth-child(odd){
+        padding-right: 15px;
+        padding-left: 75px;
+        text-align: left;
+    }
+
+    .sobreMi .timeline .timeline-item:nth-child(even){
+        padding-left: 75px;
+        padding-right:15px;
+    }
+
+    .sobreMi .timeline:before {
+        left: 35px;
+    }
+
+    .sobreMi .timeline .timeline-item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }
+
+    .sobreMi .timeline .timeline-item:nth-child(even) .icon{
+        left: -60px;
+    }
+
+    .sobreMi .timeline .timeline-item {
+        margin-bottom: 40px;
+    }
+
+    .sobreMi .timeline .timeline-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .sobreMi .timeline .timeline-item:nth-child(odd) .timeline1::before{
+        left: -30px;
+        right: auto;
+    }
+
+    .porfolio-section .porfolio-filter{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .porfolio-section .porfolio-filter .button{ 
+       margin: 5px;  
+    }
+
+    .service-section .row {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 574px){
+    .inicio .inicio-img .img-box{
+        max-width: 260px;
+    }
+
+    .inicio .inicio-text h2{
+        font-size: 40px;
+    }
+
+    .inicio .inicio-text h1{
+        font-size: 17px;
+    }
+
+    .animation4{
+        margin-left: -40px;
+    }
+
+    .animation5 {
+        margin-left: -38px;
+    }
+
+    .sobreMi .sobre-info a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreMi .pestañas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreMi .sobre-info a .button{
+        margin: 5px;
+    }
+
+    .sobreMi .pestañas .button{
+        margin: 5px;
+    }
+}
